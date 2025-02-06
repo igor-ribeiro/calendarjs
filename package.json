@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha --reporter spec",
     "test:watch": "mocha -w --reporter min",
-    "npm:publish": "git push && git push --tags && npm publish"
+    "npm:publish": "git push && git push --tags && npm publish --tag beta"
   },
   "repository": {
     "type": "git",
